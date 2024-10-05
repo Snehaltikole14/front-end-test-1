@@ -14,7 +14,11 @@ multiplicationTable(5);
 //Write a JavaScript function that takes input for a temperature in Celsius from the user and converts it into Fahrenheit using the formula: 
 //Fahrenheit=(Celsius×9/5)+32
 
-
+function celsiusToFahrenheit(celsius) {
+   let fahrenheit = (celsius * 9 / 5) + 32;
+     console.log(fahrenheit);
+}
+celsiusToFahrenheit(8);
 
 
 //Positive or Negative Number Checker (5 marks): 
